@@ -1,0 +1,58 @@
+<h1>Ti.Security.JailBroken</h1>
+
+Ti.Security.JailBroken allows you to determine if the iOS device your app is running upon is jailbroken or not.
+
+This is only for iOS.
+
+<h2>Before you start</h2>
+* You need Titanium 7.4.0.GA or greater.
+* This module has only been tested on iOS11+
+
+<h2>Setup</h2>
+
+* You must be running iOS 11 or greater
+* You must be using Ti SDK 7.4.0.GA or greater
+* Compiled modulle available at [dist folder](https://github.com/benbahrenburg/Ti.Security.JailBroken/tree/master/dist) 
+* Install the TTi.Security.JailBroken module. If you need help here is a "How To" [guide](https://wiki.appcelerator.org/display/guides/Configuring+Apps+to+Use+Modules). 
+* You can now use the module via the commonJS require method, example shown below.
+
+<pre><code>
+//Add the core module into your project
+var mod = require('Ti.Security.JailBroken');
+
+</code></pre>
+
+Now we have the module installed and avoid in our project we can start to use the components, see the feature guide below for details.
+
+<h2>Methods</h2>
+
+The module contains only four methods. The goal is to keep the function of this module narrow.
+
+<h4>isSupported</h4>
+
+Indicates of the module is supported
+
+Method returns true or false
+
+<b>Example</b>
+~~~
+var mod = require('Ti.Security.JailBroken');
+var broken = visits.isJailBroken();
+console.log("Device is jail broken " + (broken)? "Yes" : "No");
+~~~
+
+<h2>Licensing</h2>
+
+This project is licensed under the OSI approved Apache Public License (version 2). For details please see the license associated with each project.
+
+Developed by [Ben Bahrenburg](http://bahrenburgs.com) available on twitter [@bencoding](http://twitter.com/bencoding)
+
+<h2>Learn More</h2>
+
+<h3>Twitter</h3>
+
+Please consider following the [@bencoding Twitter](http://www.twitter.com/bencoding) for updates and more about Titanium.
+
+<h3>Blog</h3>
+
+For module updates, Titanium tutorials and more please check out my blog at [bencoding.com](http://bencoding.com). 
