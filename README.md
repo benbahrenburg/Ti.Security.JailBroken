@@ -1,14 +1,14 @@
-#Ti.Security.JailBroken
+# Ti.Security.JailBroken
 
 Ti.Security.JailBroken allows you to determine if the iOS device your app is running upon is jailbroken or not.
 
 This is only for iOS.
 
-##Before you start
+## Before you start
 * You need Titanium 7.4.0.GA or greater.
 * This module has only been tested on iOS11+
 
-##Setup
+## Setup
 
 * You must be running iOS 11 or greater
 * You must be using Ti SDK 7.4.0.GA or greater
@@ -24,11 +24,11 @@ var mod = require('Ti.Security.JailBroken');
 
 Now we have the module installed and avoid in our project we can start to use the components, see the feature guide below for details.
 
-##Methods
+## Methods
 
 The module contains only four methods. The goal is to keep the function of this module narrow.
 
-####isJailBroken
+#### isJailBroken
 
 Indicates if the device is jailbroken
 
@@ -41,18 +41,18 @@ var broken = visits.isJailBroken();
 console.log("Device is jail broken " + (broken)? "Yes" : "No");
 ~~~
 
-##Licensing
+## Licensing
 
 This project is licensed under the OSI approved Apache Public License (version 2). For details please see the license associated with each project.
 
 Developed by [Ben Bahrenburg](http://bahrenburgs.com) available on twitter [@bencoding](http://twitter.com/bencoding)
 
-##Learn More
+## Learn More
 
-###Twitter
+### Twitter
 
 Please consider following the [@bencoding Twitter](http://www.twitter.com/bencoding) for updates and more about Titanium.
 
-###Blog
+### Blog
 
 For module updates, Titanium tutorials and more please check out my blog at [bencoding.com](http://bencoding.com). 
